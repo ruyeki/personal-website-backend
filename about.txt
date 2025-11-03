@@ -132,6 +132,6 @@ Interests:
 - AI and Machine Learning
 
 Contact:
-- GitHub: Available on website
-- LinkedIn: Available on website
-- Email: Available on website 
+- GitHub: https://github.com/ruyeki
+- LinkedIn: https://www.linkedin.com/in/ruyeki/
+- Email: ruyeki2003@gmail.com
