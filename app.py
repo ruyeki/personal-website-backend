@@ -12,7 +12,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
-CORS(app)
+CORS(app, origins=["https://ryanuyeki.vercel.app"], supports_credentials=True)
+
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 app.secret_key = os.getenv("APP_SECRET_KEY")
 
