@@ -11,6 +11,7 @@ port = int(os.environ.get("PORT", 10000))
 load_dotenv()
 
 app = Flask(__name__)
+
 CORS(app)
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
